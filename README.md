@@ -43,7 +43,7 @@ jupyter notebook notebooks/01_data_preprocessing.ipynb
 
 ## 🔬 Methodology
 
-The framework follows a **systematic six-stage workflow**:
+Our framework follows a **systematic six-stage workflow**:
 
 | Stage | Description | Key Techniques |
 |-------|-------------|----------------|
@@ -198,24 +198,6 @@ If you use this work in your research, please cite:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
-
-### Areas for Contribution
-- Additional refutation tests
-- Alternative causal discovery algorithms  
-- Extended uncertainty quantification methods
-- Support for different manufacturing processes
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -237,13 +219,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **DoWhy Team** - Microsoft Research for the causal inference framework
 - **DoubleML Contributors** - For the double machine learning implementation
 - **Thesis Supervisors** - For guidance and domain expertise
-
----
-
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=rajrejin/injection-molding-causal-inference&type=Date)](https://star-history.com/#rajrejin/injection-molding-causal-inference&Date)
-
----
-
-*🚀 Ready to discover causal relationships in your manufacturing process? Get started with our comprehensive framework!*
