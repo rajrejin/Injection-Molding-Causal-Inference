@@ -43,7 +43,7 @@ jupyter notebook notebooks/01_data_preprocessing.ipynb
 
 ## 🔬 Methodology
 
-Our framework follows a **systematic six-stage workflow**:
+The framework follows a **systematic six-stage workflow**:
 
 | Stage | Description | Key Techniques |
 |-------|-------------|----------------|
@@ -89,27 +89,15 @@ Our framework follows a **systematic six-stage workflow**:
 
 ```
 injection-molding-causal-inference/
-├── 📁 notebooks/
-│   ├── 01_data_preprocessing.ipynb           # Data cleaning & normalization
-│   ├── 02_expert_graph_construction.ipynb   # Initial DAG creation
-│   ├── 03_graph_refutation_refinement.ipynb # LMC testing & improvement
-│   ├── 04_causal_effect_estimation.ipynb    # ATE calculation across methods
-│   ├── 05_model_comparison.ipynb            # Cross-method validation
-│   └── 06_predictive_modeling.ipynb         # Uncertainty-aware prediction
-├── 📁 src/
-│   ├── causal_graphs.py                     # DAG construction utilities
-│   ├── refutation_tests.py                  # Graph validation methods
-│   ├── effect_estimation.py                 # Causal effect calculations
-│   └── predictive_models.py                 # ML prediction pipeline
-├── 📁 data/
-│   └── injection_molding_data.csv           # Dataset (converted from PARQUET)
-├── 📁 results/
-│   ├── graphs/                              # Generated DAG visualizations
-│   ├── causal_effects/                      # ATE estimation results
-│   └── predictions/                         # Model performance metrics
-├── requirements.txt
-├── README.md
-└── LICENSE
+├── 📁 Data/                                 # Dataset folder
+├── 1. Graph Refutation.ipynb               # Graph validation & LMC testing
+├── 2. Selection of Candidate Graph.ipynb   # DAG refinement & selection
+├── 3. Refuting the Selected Graph.ipynb    # Robustness testing of final graph
+├── 4. Comparing Causal Effects Across Models.ipynb  # CBN, SCM, DML comparison
+├── 5. Predictive Modelling Using DoWhy and DML.ipynb  # Uncertainty-aware prediction
+├── requirements.txt                         # Python dependencies
+├── README.md                               # Project documentation
+└── LICENSE                                 # MIT License
 ```
 
 ---
