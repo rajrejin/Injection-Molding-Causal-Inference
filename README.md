@@ -25,8 +25,8 @@ This repository implements a **six-stage methodological framework** for causal a
 
 ```bash
 # Clone the repository
-git clone https://github.com/rajrejin/injection-molding-causal-inference.git
-cd injection-molding-causal-inference
+git clone https://github.com/rajrejin/Injection-Molding-Causal-Inference.git
+cd Injection-Molding-Causal-Inference
 
 # Create virtual environment
 python -m venv venv
@@ -188,7 +188,7 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @mastersthesis{raj2025causal,
-  title={Causal Inference and Predictive Modeling for Injection Molding Quality Control},
+  title={Application and Validation of Causal Models in Manufacturing: A Case Study in Injection Molding},
   author={Rejin Raj},
   school={Friedrich-Alexander-University Erlangen-Nürnberg},
   year={2025},
